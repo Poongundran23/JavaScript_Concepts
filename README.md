@@ -1,2 +1,2 @@
 # JavaScript_Concepts
-Java script basics
+This repo consists of Java script basic concepts
