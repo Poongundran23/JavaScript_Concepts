@@ -1,0 +1,51 @@
+Javascript
+===========
+Installation
+============
+* Install node.js
+* Install VSC editor - for coding
+* Install JavaScript editor (ES6) plugin 
+
+Variables
+=========
+* Three different types of variables var, const, let
+
+- var = to declare variable at global level, redeclaration allowed (var a = 10)
+- let = to declare variable at function(block) level, no redeclaration allowed(let a = 10)
+- const = to declare a constant value, defined only once (const a = 10)
+
+- to define a string use double(") or single quotes(')
+
+Data types
+==========
+Primitive -> number, string, boolean, null and undefined
+Non primitive -> Object, array
+
+Functions
+=========
+To define a function use 'function' keyword
+Eg: Find Area:
+function area(l,b){
+   return(l*b)
+}
+
+after defining the function call the function by its name.
+Eg: console.log("Area is: " + area(10,10)) - to print in the console
+
+Conditional Statements
+======================
+if(true) {
+   statement
+} else if(true) {
+   statement
+} else {
+   statement
+}
+
+Loop
+====
+for
+===
+for(i=0; i<5; i++) {
+  statement
+}
